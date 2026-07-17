@@ -1,6 +1,6 @@
 # Automação Pipeline do meu canal dark no youtube Nexo Roxo
 
-Uma pipeline automatizada de ponta a ponta para a criação, edição e publicação de conteúdo "Dark" para o YouTube. O sistema gerencia todo o ciclo de vida do vídeo: desde a geração de roteiro via IA, narração, busca de *B-roll* (cenas complementares), edição com legendas automatizadas até o upload e configuração da thumbnail.
+Uma pipeline automatizada de ponta a ponta para a criação, edição e publicação de conteúdo "Dark" para o YouTube usando Python. O sistema gerencia todo o ciclo de vida do vídeo: desde a geração de roteiro via IA, narração, busca de *B-roll* (cenas complementares), edição com legendas automatizadas até o upload e configuração da thumbnail.
 
 ### Acesse: https://www.youtube.com/@NexoRoxo
 
