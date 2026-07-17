@@ -13,6 +13,7 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 | **Roteiro & Lógica** | OpenAI (GPT-4) / Groq | Processamento de linguagem natural rápido e estruturado (JSON). |
 | **Narração (TTS)** | `edge-tts` | Vozes neurais de alta qualidade, naturais e totalmente gratuitas. |
 | **Imagens/Thumb** | HuggingFace + `Pillow` | Geração de assets via modelos e manipulação gráfica via `Pillow`. |
+| **animações** | runwayml,Lottifiles | Obter animações específicas. |
 | **B-Roll (Vídeos)** | Pexels API | Acesso a banco de vídeos em alta resolução (4K/HD). |
 | **Edição** | `MoviePy` | Montagem, renderização e composição de trilha sonora/vídeo. |
 | **Infra/Env** | `python-dotenv` | Gerenciamento seguro de variáveis de ambiente. |
@@ -24,13 +25,13 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 CANAL_DARK/
 ├── assets/                 # Recursos estáticos
 │   ├── efeitos_sonoros/    # Transições (SFX)
-│   ├── animacoes/          # Animações de like e subscribe
+│   ├── animacoes/          # animacoes de like e se inscrever e o nexo (site runwayml)
 │   ├── alegre/             # Trilha sonora
 │   ├── dramatico/          # Trilha sonora
 │   ├── estetica_canal/     
 │   ├── inspirador/         # Trilha sonora
 │   ├── raiva/              # Trilha sonora
-│   ├── fonte_thumb/        # Fontes para thumbnails    
+│   ├── fonte_thumb/        # Fontes para thumbnails
 │   └── sombrio/            # Trilha sonora
 ├── config/
 │   └── config.py           # Gerenciamento de variáveis
