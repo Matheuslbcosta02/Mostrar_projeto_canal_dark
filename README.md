@@ -41,6 +41,7 @@ CANAL_DARK/
 │   ├── pexels_service.py   # Download de vídeos B-roll
 │   ├── scripts_service.py  # Integração com LLMs
 │   ├── thumb_service.py    # Manipulação gráfica (Pillow)
+│   ├── tratar_animacoes.py # Manipulação dos videos com opencv e numpy
 │   ├── video_service.py    # Edição (MoviePy)
 │   └── youtube_service.py  # Automação de upload/metadata
 ├── temp/                   # Área de trabalho (temporária)
