@@ -24,6 +24,7 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 CANAL_DARK/
 ├── assets/                 # Recursos estáticos
 │   ├── efeitos_sonoros/    # Trilha sonora
+│   ├── animacoes/          # Animações de like e subscribe
 │   ├── alegre/             # Trilha sonora
 │   ├── dramatico/          # Trilha sonora
 │   ├── estetica_canal/     
