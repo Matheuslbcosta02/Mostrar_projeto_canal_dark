@@ -23,15 +23,14 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 ```text
 CANAL_DARK/
 ├── assets/                 # Recursos estáticos
-│   ├── efeitos_sonoros/    # Trilha sonora
+│   ├── efeitos_sonoros/    # Transições (SFX)
 │   ├── animacoes/          # Animações de like e subscribe
 │   ├── alegre/             # Trilha sonora
 │   ├── dramatico/          # Trilha sonora
 │   ├── estetica_canal/     
 │   ├── inspirador/         # Trilha sonora
 │   ├── raiva/              # Trilha sonora
-│   ├── fonte_thumb/        # Fontes para thumbnails
-│   ├── efeitos_sonoros/    # Transições (SFX)
+│   ├── fonte_thumb/        # Fontes para thumbnails    
 │   └── sombrio/            # Trilha sonora
 ├── config/
 │   └── config.py           # Gerenciamento de variáveis
