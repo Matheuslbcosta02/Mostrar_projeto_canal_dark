@@ -13,7 +13,7 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 | **Roteiro & Lógica** | OpenAI (GPT-4) / Groq | Processamento de linguagem natural rápido e estruturado (JSON). |
 | **Narração (TTS)** | `edge-tts` | Vozes neurais de alta qualidade, naturais e totalmente gratuitas. |
 | **Imagens/Thumb** | HuggingFace + `Pillow` | Geração de assets via modelos e manipulação gráfica via `Pillow`. |
-| **animações** | runwayml,Lottifiles + openCV + Numpy | Obter animações específicas e tratar. |
+| **animações** | runwayml,Lottifiles,popvidAI, vmakeAI + openCV + Numpy | Obter animações específicas e tratar. |
 | **B-Roll (Vídeos)** | Pexels API | Acesso a banco de vídeos em alta resolução (4K/HD). |
 | **Edição** | `MoviePy` | Montagem, renderização e composição de trilha sonora/vídeo. |
 | **Infra/Env** | `python-dotenv` | Gerenciamento seguro de variáveis de ambiente. |
