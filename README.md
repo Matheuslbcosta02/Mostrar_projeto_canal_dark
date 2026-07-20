@@ -33,6 +33,7 @@ CANAL_DARK/
 │   ├── raiva/              # Trilha sonora
 │   ├── fonte_thumb/        # Fontes para thumbnails
 │   └── sombrio/            # Trilha sonora
+├── backup/                 # pasta com videos para emergencia e o prompt antigo para groq
 ├── config/
 │   └── config.py           # Gerenciamento de variáveis
 ├── services/               # Módulos de negócio
