@@ -12,7 +12,7 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 | :--- | :--- | :--- |
 | **Roteiro & Lógica** | OpenAI (GPT-4) / Groq | Processamento de linguagem natural rápido e estruturado (JSON). |
 | **Narração (TTS)** | `edge-tts` | Vozes neurais de alta qualidade, naturais e totalmente gratuitas. |
-| **Imagens/Thumb** | HuggingFace + `Pillow` | Geração de assets via modelos e manipulação gráfica via `Pillow`. |
+| **Imagens/Thumb** | Stability + `Pillow` +opencv + numpy | Geração de assets via modelos e manipulação gráfica via `Pillow`. |
 | **animações** | runwayml,Lottifiles,popvidAI, vmakeAI + openCV + Numpy | Obter animações específicas e tratar. |
 | **B-Roll (Vídeos)** | Pexels API | Acesso a banco de vídeos em alta resolução (4K/HD). |
 | **Edição** | `MoviePy` | Montagem, renderização e composição de trilha sonora/vídeo. |
@@ -38,7 +38,7 @@ CANAL_DARK/
 │   └── config.py           # Gerenciamento de variáveis
 ├── services/               # Módulos de negócio
 │   ├── audio_service.py    # Integração com edge-tts
-│   ├── imagem_service.py   # Geração via HuggingFace
+│   ├── imagem_service.py   # Geração via Stability
 │   ├── pexels_service.py   # Download de vídeos B-roll
 │   ├── scripts_service.py  # Integração com LLMs
 │   ├── thumb_service.py    # Manipulação gráfica (Pillow)
