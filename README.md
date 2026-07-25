@@ -26,13 +26,9 @@ CANAL_DARK/
 ├── assets/                 # Recursos estáticos
 │   ├── efeitos_sonoros/    # Transições (SFX)
 │   ├── animacoes/          # animacoes de like e se inscrever e o nexo (site runwayml)
-│   ├── alegre/             # Trilha sonora
-│   ├── dramatico/          # Trilha sonora
-│   ├── estetica_canal/     
-│   ├── inspirador/         # Trilha sonora
-│   ├── raiva/              # Trilha sonora
-│   ├── fonte_thumb/        # Fontes para thumbnails
-│   └── sombrio/            # Trilha sonora
+│   ├── musicas/            # Trilha sonora
+│   ├── estetica_canal/       
+│   └── fonte_thumb/        # Fontes para thumbnails
 ├── backup/                 # pasta com videos para emergencia e o prompt antigo para groq
 ├── config/
 │   └── config.py           # Gerenciamento de variáveis
