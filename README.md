@@ -11,6 +11,7 @@ O projeto foi construído utilizando um ecossistema robusto de bibliotecas Pytho
 | Etapa | Ferramenta / API | Motivo da Escolha |
 | :--- | :--- | :--- |
 | **Roteiro & Lógica** | OpenAI (GPT-4) / Groq | Processamento de linguagem natural rápido e estruturado (JSON). |
+| **Revisão/controle de qualidade**|gemini model="gemini-3.5-flash"|traz pontos de melhoria no roteiro.|
 | **Narração (TTS)** | `edge-tts` | Vozes neurais de alta qualidade, naturais e totalmente gratuitas. |
 | **Imagens/Thumb** | Stability + `Pillow` +opencv + numpy | Geração de assets via modelos e manipulação gráfica via `Pillow`. |
 | **animações** | runwayml,Lottifiles,popvidAI, vmakeAI + openCV + Numpy | Obter animações específicas e tratar. |
@@ -34,6 +35,7 @@ CANAL_DARK/
 │   └── config.py           # Gerenciamento de variáveis
 ├── services/               # Módulos de negócio
 │   ├── audio_service.py    # Integração com edge-tts
+│   ├── gemini_revisor_service.py   # Geração de revisão e controle qualidade do roteiro
 │   ├── imagem_service.py   # Geração via Stability
 │   ├── pexels_service.py   # Download de vídeos B-roll
 │   ├── scripts_service.py  # Integração com LLMs
